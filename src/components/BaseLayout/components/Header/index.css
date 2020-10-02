@@ -1,0 +1,38 @@
+.header {
+  height: 35em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  background: transparent;
+}
+
+#header-title {
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: white 3 4;
+}
+
+.links-header {
+  display: flex;
+}
+
+p a {
+  color: black;
+  text-decoration: solid;
+  padding: 0 1em;
+  background: rgba(255, 255, 255, 0.7);
+  margin: 1em;
+  padding: 1em 2em;
+  border-radius: 5px;
+  transition: 0.5s;
+  height: 1em;
+}
+
+a:hover {
+  background: #222222;
+  transition: 0.5s;
+  color:white;
+}

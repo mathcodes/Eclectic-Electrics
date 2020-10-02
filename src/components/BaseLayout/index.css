@@ -1,0 +1,32 @@
+.content {
+  background-image: linear-gradient(to bottom right, brown, orange);
+}
+
+.first-header {
+  background: url('http://www.fiorentinoguitars.com/uploads/4/7/6/5/4765124/img-6984_orig.jpg');
+}
+
+.second-header {
+  background: url('http://www.fiorentinoguitars.com/uploads/4/7/6/5/4765124/6234871_orig.jpg');
+}
+
+.third-header {
+  background: url('http://www.fiorentinoguitars.com/uploads/4/7/6/5/4765124/7583737_orig.jpg');
+}
+
+.fourth-header {
+  background: url('http://www.fiorentinoguitars.com/uploads/4/7/6/5/4765124/1751362_orig.jpg');
+}
+
+.first-header, .second-header, .third-header, .fourth-header {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+  /* opacity: 0.7; */
+}
+ 
+.navlink{
+  font-size: inherit;
+}
+ 
