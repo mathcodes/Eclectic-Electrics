@@ -18,7 +18,7 @@ const products = [
     condition: "new",
     type: "effects",
     img: "https://media.guitarcenter.com/is/image/MMGS7/Cry-Baby-535Q-Multi-Wah-Pedal/151016000000000-00-160x160.jpg",
-    inCart: false,
+    inCart: true,
     category: "ON SALE"
   },
   {

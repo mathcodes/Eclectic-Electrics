@@ -8,8 +8,8 @@ const Header = () => (
   <div className="header">
     <h1 id="header-title">Eclectic Electrics</h1>
     <div className="links-header">
-      <p><NavLink activeClassName="selected" className="nav-link-header" to="/men">New</NavLink></p>
-      <p><NavLink activeClassName="selected" className="nav-link-header" to="/women">Used</NavLink></p>
+      <p><NavLink activeClassName="selected" className="nav-link-header" to="/New">New</NavLink></p>
+      <p><NavLink activeClassName="selected" className="nav-link-header" to="/Used">Used</NavLink></p>
     </div>
   </div>
 )
